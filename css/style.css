@@ -1,0 +1,372 @@
+body {
+	margin: 0px auto;
+	padding: 0;
+}
+
+.wrapper {
+	margin: 0 auto;
+	overflow: hidden;
+	background: #44c7f4;
+}
+
+.monitor {
+	fill: none;
+	stroke: white;
+	stroke-width: 3px;
+	stroke-dashoffset: 4000;
+  	stroke-dasharray: 4000;
+}
+
+.tablet{
+	fill: none;
+	stroke: white;
+	stroke-width: 3px;
+	stroke-dashoffset: 1500;
+  	stroke-dasharray: 1500;
+}
+
+.plax:last-child {
+	margin-bottom: 0;
+}
+
+.plax.parallax {
+	background-attachment: scroll;
+	background-position: 50% 50%;
+	background-size: cover;
+	background-repeat: no-repeat;
+	min-height: 800px;
+}
+
+.plax.parallax.parallax-one {
+	background-color: #d1f3ff;
+	background-image: url("../res/bg1.png"), url("../res/bg2.png"), url("../res/bg3.png"), url("../res/bg4.png"), url("../res/bg5.png");
+}
+
+	.welcome-text {
+		color: #418ba5;
+		font-family: "Courier";
+		font-size: 24px;
+		font-weight: bold;;
+		text-align: center;
+		width: 100%;
+		height: 100px;
+		position: absolute;
+		top: 340px;
+		margin-left: 10px;
+
+		/* Firefox */
+		display:-moz-box;
+		-moz-box-pack:center;
+		-moz-box-align:center;
+
+		/* Safari and Chrome */
+		display:-webkit-box;
+		-webkit-box-pack:center;
+		-webkit-box-align:center;
+
+		/* W3C */
+		display:box;
+		box-pack:center;
+		box-align:center;
+	}
+
+	p {
+		width: 100%;
+		white-space: nowrap;
+		overflow: hidden;
+		animation: type 4s steps(60, end);
+	}
+
+	p:nth-child(2) {
+
+	}
+
+	p:nth-child(3) {
+	}
+
+	@keyframes type {
+		from {
+			width: 0;
+		}
+	}
+
+	@keyframes type2 {
+		0%{width: 0;}
+  		50%{width: 0;}
+  		100%{ width: 100%; }
+	}
+
+.plax.parallax.parallax-two {
+	background-color: #44c7f4;
+	background-image: url("../res/p2-bg1.png"), url("../res/p2-bg2.png"), url("../res/p2-bg3.png"), url("../res/sea-detail.png");
+}
+
+	.p2-container {
+		color: white;
+		font-family: "Courier";
+		width: 100%;
+		min-height: 600px;
+		margin: auto;
+		text-align: center;
+	}
+
+	.p2-container h1 {
+		margin-top: 150px;
+
+		/* Firefox */
+		display:-moz-box;
+		-moz-box-pack:center;
+		-moz-box-align:center;
+
+		/* Safari and Chrome */
+		display:-webkit-box;
+		-webkit-box-pack:center;
+		-webkit-box-align:center;
+
+		/* W3C */
+		display:box;
+		box-pack:center;
+		box-align:center;
+	}
+
+	.p2-container h2 {
+		margin-top: -250px;
+	}
+
+	#parallax2 {
+		min-height: 360px;
+		width: 400px;
+	}
+
+		#monitor1 {
+  			stroke-dashoffset: 4000;
+  			stroke-dasharray: 4000;
+		}
+
+		#monitor2 {
+			stroke-dashoffset: 3000;
+  			stroke-dasharray: 3000;
+		}
+
+.plax.parallax.parallax-three {
+	background-color: #44c7f4;
+	background-image: url("../res/p3-bg1.png"), url("../res/p2-bg2.png"), url("../res/p2-bg3.png"), url("../res/sea-detail.png");
+}
+
+	#fish1 {
+		position: absolute;
+		right: 0px;
+		top: 1050px;
+	}
+
+	#jellyfish1 {
+		position: absolute;
+		right: 10%;
+		top: 1800px;
+	}
+
+	#jellyfish2 {
+		position: absolute;
+		right: 10%;
+		top: 3000px;
+	}
+
+	#fish2 {
+		position: absolute;
+		right: 50px;
+		top: 1550px;
+	}
+
+	#fish3 {
+		position: absolute;
+		top: 1850px;
+		left: 5%;
+	}
+
+	#horsefish {
+		position: absolute;
+		top: 2550px;
+		right: 5%;
+	}
+
+	#horsefish2 {
+		position: absolute;
+		top: 3950px;
+		right: 5%;
+	}
+
+	#fish4 {
+		position: absolute;
+		top: 2550px;
+		left: 5%;
+	}
+
+	#fish5 {
+		position: absolute;
+		top: 3000px;
+		left: 50px;
+	}
+
+	#fish6 {
+		position: absolute;
+		top: 1250px;
+		left: 50px;
+	}
+
+	#fish7 {
+		position: absolute;
+		top: 2150px;
+		right: 50px;
+	}
+
+	#fish8 {
+		position: absolute;
+		top: 2400px;
+		left: 50px;
+	}
+
+	#fish9 {
+		position: absolute;
+		top: 2750px;
+		left: 50px;
+	}
+
+	#fish10 {
+		position: absolute;
+		top: 3350px;
+		right: 50px;
+	}
+
+	#octopus {
+		position: absolute;
+		top: 3600px;
+		left: 0px;
+	}
+
+	.p3-container {
+		color: white;
+		font-family: "Courier";
+		width: 100%;
+		min-height: 600px;
+		margin: auto;
+		text-align: center;
+		margin-top: 250px;
+	}
+
+	.p3-container h1 {
+
+		/* Firefox */
+		display:-moz-box;
+		-moz-box-pack:center;
+		-moz-box-align:center;
+
+		/* Safari and Chrome */
+		display:-webkit-box;
+		-webkit-box-pack:center;
+		-webkit-box-align:center;
+
+		/* W3C */
+		display:box;
+		box-pack:center;
+		box-align:center;
+	}
+
+	.p3-container h2 {
+		margin-top: -250px;
+	}
+
+	#parallax3 {
+		min-height: 360px;
+		width: 400px;
+	}
+
+	.st0{fill:none;stroke:white;stroke-width:3;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;stroke-dashoffset: 2000;stroke-dasharray: 2000;}
+	.st1{fill:#FFFFFF;}
+	.st2{font-family:'Courier'; font-weight: bold;}
+	.st3{font-size:30px;}
+	.st4{letter-spacing:17;}
+	.st5{fill:none;stroke:#FFFFFF;stroke-width:2;stroke-miterlimit:10;stroke-dashoffset: 120;stroke-dasharray: 120;}
+	.st6{fill:#F7F5ED;}
+	.st7{fill:#E75A4D;}
+	.st8{fill:#B7B6AD;}
+	.st9{fill:none;}
+	.st10{font-size: 20px;}
+	.st11{font-size: 24px;}
+	.st12{font-size: 18px;}
+	.stP5{fill:#FFFFFF;font-family: 'Bickley';font-size:95px;}
+
+	.stBe{stroke-dashoffset: 450;stroke-dasharray: 450;}
+
+.plax.parallax.parallax-four {
+	background: linear-gradient(#44c7f4, #009fd7);
+	-webkit-background: linear-gradient(#44c7f4, #009fd7);
+}
+
+	.p4-container {
+		color: white;
+		font-family: "Courier";
+		width: 100%;
+		min-height: 600px;
+		margin: auto;
+		text-align: center;
+		margin-top: -200px;
+	}
+
+	.p4-container h1 {
+
+		/* Firefox */
+		display:-moz-box;
+		-moz-box-pack:center;
+		-moz-box-align:center;
+
+		/* Safari and Chrome */
+		display:-webkit-box;
+		-webkit-box-pack:center;
+		-webkit-box-align:center;
+
+		/* W3C */
+		display:box;
+		box-pack:center;
+		box-align:center;
+	}
+
+	.p4-container h2 {
+		margin-top: -250px;
+	}
+
+	#parallax4 {
+		min-height: 360px;
+		width: 400px;
+	}
+
+	.overlayBehance {
+		position: absolute;
+		top: 2680px;
+		left: 15%;
+		width: 800px;
+		height: 260px;
+		background-color: transparent;
+		z-index: 999;
+	}
+
+.plax.parallax.parallax-five {
+	background: #009fd7;
+	background-image: url("../res/p3-bg1.png"), url("../res/p2-bg2.png"), url("../res/p2-bg3.png"), url("../res/floor.png");
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+}
+
+	.p5-container {
+		color: white;
+		font-family: "Bickley";
+		width: 100%;
+		min-height: 600px;
+		margin: auto;
+		text-align: center;
+	}
+
+	#parallax5 {
+		min-height: 360px;
+		width: 400px;
+	}
