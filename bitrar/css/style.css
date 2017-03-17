@@ -1,0 +1,447 @@
+@font-face {
+    font-family: latoLight;
+    src: url(../font/Lato-Light.ttf);
+}
+
+@font-face {
+    font-family: latoRegular;
+    src: url(../font/Lato-Regular.ttf);
+}
+
+body {
+	margin: 0px auto;
+	padding: 0;
+	font-family: latoLight;
+}
+
+.wrapper {
+	margin: 0 auto;
+	overflow: hidden;
+	background: #ffffff;
+}
+
+.arrow {
+	position: absolute;
+	top: 560px;
+	left: 50%;
+	margin-left: -46px;
+	cursor: pointer;
+}
+
+.plax:last-child {
+	margin-bottom: 0;
+}
+
+.plax.parallax {
+	background-attachment: scroll;
+	background-position: 50% 50%;
+	background-size: cover;
+	background-repeat: no-repeat;
+	min-height: 598px;
+}
+
+.plax.parallax.parallax-one {
+	background-color: #d1f3ff;
+	background-image: url("../res/header-bg.png");
+	font-family: latoRegular;
+}
+
+	.container {
+		width: 100%;
+		min-height: 598px;
+	}
+	
+		.menu {
+			position: fixed;
+			top: 0;
+			left: 0;
+			width: 100%;
+			min-height: 47px;
+			transition: 0.5s ease;
+			-webkit-transition: 0.5s ease;
+			-moz-transition: 0.5s ease;
+			-o-transition: 0.5s ease;
+		}
+
+		.menu-colored {
+			position: fixed;
+			top: 0;
+			left: 0;
+			width: 100%;
+			min-height: 47px;
+			background-color: #1480fe;
+			transition: 0.5s ease;
+			-webkit-transition: 0.5s ease;
+			-moz-transition: 0.5s ease;
+			-o-transition: 0.5s ease;
+		}
+
+			.logo {
+				float: left;
+				width: 143px;
+				height: 47px;
+				margin-top: 25px;
+				margin-left: 95px;
+				transition: 0.5s ease;
+			-webkit-transition: 0.5s ease;
+			-moz-transition: 0.5s ease;
+			-o-transition: 0.5s ease;
+			}
+
+			.logo-scrolled {
+				float: left;
+				width: 143px;
+				height: 67px;
+				margin-top: 15px;
+				margin-left: 95px;
+				transition: 0.5s ease;
+			-webkit-transition: 0.5s ease;
+			-moz-transition: 0.5s ease;
+			-o-transition: 0.5s ease;
+			}
+
+			.items {
+				float: right;
+				color: white;
+				font-size: 24px;
+				margin-top: 40px;
+				margin-right: 95px;
+				-webkit-transition: 0.5s ease;
+				-moz-transition: 0.5s ease;
+				-o-transition: 0.5s ease;
+			}
+
+			.items-scrolled {
+				float: right;
+				color: white;
+				font-size: 22px;
+				margin-top: 28px;
+				margin-right: 95px;
+				-webkit-transition: 0.5s ease;
+				-moz-transition: 0.5s ease;
+				-o-transition: 0.5s ease;
+			}
+
+			.option {
+				margin-right: 50px;
+				transition: 0.5s ease;
+				-webkit-transition: 0.5s ease;
+				-moz-transition: 0.5s ease;
+				-o-transition: 0.5s ease;
+			}
+
+			.option:hover {
+				cursor: pointer;
+				color: #f9a622;
+			}
+
+		.content {
+			width: 100%;
+			height: 450px;
+			padding-top: 150px;
+		}
+
+			.text {
+				color: white;
+				text-align: center;
+				font-size: 30px;
+				font-family: latoLight;
+			}
+
+			.buttons {
+				width: 500px;
+				height: 65px;
+				margin: auto;
+				margin-top: 120px;
+				font-family: latoLight;
+			}
+
+				.signup {
+					float: left;
+					margin-left: 5px;
+					width: 215px;
+					height: 65px;
+					background-color: #f9a622;
+					border: 1px solid #f9a622;
+					border-radius: 35px;
+					-webkit-border-radius: 35px;
+					-moz-border-radius: 35px;
+					-o-border-radius: 35px;
+					cursor: pointer;
+					color: white;
+					font-size: 28px;
+					line-height: 65px;
+					text-align: center;
+					transition: 0.5s ease;
+					-webkit-transition: 0.5s ease;
+					-moz-transition: 0.5s ease;
+					-o-transition: 0.5s ease; 
+				}
+
+					.signup:hover {
+					background-color: transparent;
+					border: 1px solid white;
+				}
+
+				.signin {
+					float: left;
+					margin-left: 35px;
+					width: 215px;
+					height: 65px;
+					z-index:124;
+					background-color: transparent;
+					border: 1px solid white;
+					border-radius: 35px;
+					-webkit-border-radius: 35px;
+					-moz-border-radius: 35px;
+					-o-border-radius: 35px;
+					cursor: pointer;
+					color: white;
+					font-size: 28px;
+					line-height: 65px;
+					text-align: center;
+					transition: 0.5s ease;
+					-webkit-transition: 0.5s ease;
+					-moz-transition: 0.5s ease;
+					-o-transition: 0.5s ease;
+				}
+
+					.signin:hover {
+						background-color: #f9a622;
+						border: 1px solid #f9a622;
+					}
+
+.plax.parallax.parallax-two {
+	background-image: url("../res/features.png");
+}
+
+	.p2-container {
+
+	}
+
+.plax.parallax.parallax-three {
+	height: 1153px;
+	background-image: url("../res/Packages.png"), url("../res/data-bg.png");
+	background-position: center;
+	background-size: contain;
+}
+
+	.p3-container {
+		
+	}
+
+.plax.parallax.parallax-four {
+	height: 812px;
+	background-image: url("../res/about.png");
+	background-position: 0px 0px;
+}
+
+.plax.parallax.parallax-five {
+	height: 1200px;
+	background-image: url("../res/news.png");
+	background-position: 0px 0px;
+	background-size: contain;
+}
+
+	.p5-container {
+		padding-top: 880px;
+	}
+
+	.viewall {
+		margin: auto;
+		width: 350px;
+		height: 90px;
+		background-color: transparent;
+		border: 1px solid #1480fe;
+		border-radius: 45px;
+		-webkit-border-radius: 45px;
+		-moz-border-radius: 45px;
+		-o-border-radius: 45px;
+					cursor: pointer;
+					color: #1480fe;
+					font-size: 28px;
+					line-height: 90px;
+					text-align: center;
+					transition: 0.5s ease;
+					-webkit-transition: 0.5s ease;
+					-moz-transition: 0.5s ease;
+					-o-transition: 0.5s ease;
+	}
+
+	.viewall:hover {
+		background-color: #1480fe;
+		border: 1px solid #1480fe;
+		color: white;
+	}
+
+.plax.parallax.parallax-six {
+	height: 496px;
+	background-image: url("../res/footer-bg.png");
+	background-position: 0px 0px;
+	background-size: cover;
+}
+
+	.p6-container {
+		width: 100%;
+		height: 496px;
+		border-bottom: 1px solid #6ea3db;
+	}
+
+	.p6-left {
+		margin-left: 95px;
+		padding-top: 80px;
+		float: left;
+	}
+
+		.logo2 {
+			width: 143px;
+			height: 47px;
+		}
+
+		.auth-buttons {
+			width: 480px;
+			height: 65px;
+			margin-top: 35px;
+		}
+
+			.auth-buttons-signup {
+				float: left;
+					width: 215px;
+					height: 65px;
+					background-color: #f9a622;
+					border: 1px solid #f9a622;
+					border-radius: 35px;
+					-webkit-border-radius: 35px;
+					-moz-border-radius: 35px;
+					-o-border-radius: 35px;
+					cursor: pointer;
+					color: white;
+					font-size: 28px;
+					line-height: 65px;
+					text-align: center;
+					transition: 0.5s ease;
+					-webkit-transition: 0.5s ease;
+					-moz-transition: 0.5s ease;
+					-o-transition: 0.5s ease; 
+			}
+
+			.auth-buttons-signup:hover {
+					background-color: transparent;
+					border: 1px solid white;
+				}
+
+				.auth-buttons-signin {
+					float: left;
+					margin-left: 35px;
+					width: 215px;
+					height: 65px;
+					z-index:124;
+					background-color: transparent;
+					border: 1px solid white;
+					border-radius: 35px;
+					-webkit-border-radius: 35px;
+					-moz-border-radius: 35px;
+					-o-border-radius: 35px;
+					cursor: pointer;
+					color: white;
+					font-size: 28px;
+					line-height: 65px;
+					text-align: center;
+					transition: 0.5s ease;
+					-webkit-transition: 0.5s ease;
+					-moz-transition: 0.5s ease;
+					-o-transition: 0.5s ease;
+				}
+
+					.auth-buttons-signin:hover {
+						background-color: #f9a622;
+						border: 1px solid #f9a622;
+					}
+
+		.social {
+			width: 215px;
+			height: 50px;
+			margin-top: 70px;
+		}
+
+			.social>img {
+				margin-right: 18px;
+				cursor: pointer;
+				opacity: 0.5;
+				transition: 0.5s ease;
+						-webkit-transition: 0.5s ease;
+						-moz-transition: 0.5s ease;
+						-o-transition: 0.5s ease;
+			}
+
+			.social>img:hover {
+				opacity: 1;
+			}
+
+		.sponsors {
+			margin-top: 70px;
+		}
+
+	.p6-right {
+		float: right;
+		width: 480px;
+		height: 436px;
+		padding-top: 90px;
+		margin-right: 95px;
+	}
+
+		.sitemap-title {
+			text-align: right;
+			color: white;
+			font-size: 28px;
+			font-family: latoRegular;
+		}
+
+		.sitemap-items {
+			color: white;
+			font-size: 26px;
+			margin-top: 45px;
+		}
+
+			.sitemap-items-right {
+				width: 50%;
+				float: right;
+				text-align: right;
+			}
+
+			.sitemap-items-right>div {
+				margin-bottom: 30px;
+				cursor: pointer;
+				opacity: 0.8
+			}
+
+				.sitemap-items-right>div:hover {
+				opacity: 1;
+			}
+
+			.sitemap-items-left {
+				width: 50%;
+				float: right;
+				text-align: right;
+			}
+
+			.sitemap-items-left>div {
+				margin-bottom: 30px;
+				cursor: pointer;
+				opacity: 0.8
+			}
+
+				.sitemap-items-left>div:hover {
+				opacity: 1;
+			}
+
+	.p6-bottom {
+		padding-top: 524px;
+		margin-left: 95px;
+		width: 100%;
+		height: 50px;
+		color: white;
+		font-size: 18px;
+		line-height: 50px;
+	}
+
